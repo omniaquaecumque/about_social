@@ -1,31 +1,15 @@
-.App {
-  text-align: center;
+#Home {
+  background: url(./img/background.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+*{
+  margin:0;
+  padding:0;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +19,123 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Orientater_logo {
+    animation: App-logo-spin infinite 20s linear;
+    position:fixed;
+    width: 5%;
+    height: 15%;
+    left: 20px;
+    top: 10px;
+  }
+}
+
+.vl {
+  border-left: 2px solid white;
+  height: 12%;
+  position: absolute;
+  left: 120px;
+  margin-left: -3px;
+  top: 20px;
+}
+
+.Social_logo {
+  position:fixed;
+  width: 15%;
+  height: 8%;
+  left: 240px;
+  top: 30px;
+}
+
+h1 {
+  position: fixed;
+  top: 30px;
+  text-indent: 140px;
+  color: white
+}
+
+.one {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  position: absolute;
+  top: 25%;
+  left: 38%;
+}
+
+.two {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+}
+
+.three {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  position: absolute;
+  top: 35%;
+  left: 29%;
+}
+
+.four {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  position: absolute;
+  top: 40%;
+  left: 27%;
+}
+
+.five {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  position: absolute;
+  top: 55%;
+}
+
+.six {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  position: absolute;
+  top: 60%;
+}
+
+.seven {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  position: absolute;
+  top: 65%;
+}
+
+.eight {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  position: absolute;
+  top: 70%;
+}
+
+.nine {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.2em;
+  position: absolute;
+  top: 75%;
+}
+
+.Register-link {
+  color: #61dafb;
+  position: absolute;
+  top: 85%;
+  left: 40%;
+  font-size: 1.7em;
 }
